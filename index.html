@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Резюме</title>
+</head>
+
+<body>
+    <div class="grid-wrapper">
+        <div class="grid-item sidebar">
+            <div class="contact-info">
+                <img src="myphoto.jpg" width="230" height="230">
+                <p class="low-line"><i class="bi bi-person-circle"></i> Контакты:</p>
+                <p class="low-line"><i class="bi bi-telephone"></i> Mobile: +71234567890</p>
+                <p class="low-line"><i class="bi bi-envelope"></i> Email: email@yandex.ru</p>
+            </div>
+        </div><i class="glyphicon glyphicon-user"></i>
+        <div class="grid-item name_title">
+            <h1>Дмитрий Устимов</h1>
+            <h2>Python Web Developer</h2>
+        </div>
+        <button type="button" class="collapsible">
+            <div class="section-header">
+                <p>Навыки</p>
+            </div>
+        </button>
+        <div class="content">
+            <div class="grid-item skills">
+                <p>Python</p>
+                <div class="container-skills">
+                    <div class="skills python">90%</div>
+                </div>
+                <p>Django</p>
+                <div class="container-skills">
+                    <div class="skills django">80%</div>
+                </div>
+                <p>JavaScript</p>
+                <div class="container-skills">
+                    <div class="skills js">65%</div>
+                </div>
+                <p>HTML/CSS</p>
+                <div class="container-skills">
+                    <div class="skills css_html">60%</div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">
+            <div class="section-header">
+                <p>Опыт работы</p>
+            </div>
+        </button>
+        <div class="content">
+            <div class="grid-item work_experience">
+                <div class="timeline">
+                    <div class="container-timelime left">
+                        <div class="content">
+                            <h2>2013</h2>
+                            <p>Инженер программист по сопровождению медиа-проектов</p>
+                        </div>
+                    </div>
+                    <div class="container-timelime right">
+                        <div class="content">
+                            <h2>2010</h2>
+                            <p>Инженер программист по сопровождению медиа-проектов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="collapsible">
+            <div class="section-header">
+                <p>Образование</p>
+            </div>
+        </button>
+        <div class="content">
+            <div class="grid-item education">
+                <div class="timeline">
+                    <div class="container-timelime left">
+                        <div class="content">
+                            <h2>2009</h2>
+                            <p>Программное обеспечение вычислительной техники и автоматизированных систем</p>
+                        </div>
+                    </div>
+                    <div class="container-timelime right">
+                        <div class="content">
+                            <h2>2005</h2>
+                            <p>Программное обеспечение вычислительной техники и автоматизированных систем</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
